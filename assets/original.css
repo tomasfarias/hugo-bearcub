@@ -211,3 +211,17 @@ figcaption > p {
   font-style: italic;
   color: #ccc;
 }
+
+.home {
+    display: flex;
+    align-items: center;
+}
+
+.home img {
+    border-radius: 0.75rem;
+    max-width: 6rem;
+}
+
+.home picture {
+    margin-right: 1.5rem;
+}

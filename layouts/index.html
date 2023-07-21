@@ -1,3 +1,17 @@
 {{ define "main" }}
+
+{{ if and ($.IsNode) (eq $.Section "") }}
+<div class="home">
+    <picture>
+      <source type="image/avif" srcset="{{ .Site.Params.avatar }}">
+      <img id="avatar" src="{{ .Site.Params.avatar }}" title="" alt="Tomás Farías">
+    </picture>
+
+    {{ .Content }}
+</div>
+{{ else }}
+
 {{ .Content }}
+{{ end }}
+
 {{ end }}
