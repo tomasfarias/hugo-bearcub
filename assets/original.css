@@ -220,6 +220,7 @@ figcaption > p {
 .home img {
     border-radius: 0.75rem;
     max-width: 6rem;
+    border: 2px solid #fdf6e3;
 }
 
 .home picture {
