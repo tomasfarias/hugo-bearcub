@@ -83,25 +83,29 @@ img {
 }
 
 code {
-    padding: 2px 5px;
     color: #fdf6e3;
-    background-color: #002b36;
+    background-color: #073642;
+    padding: 2px;
 }
 
 .highlight {
     border: max(1px, 0.0625rem) solid #586e75;
-    border-radius: 6px;
-    padding: 2px;
+    background-color: #073642;
+    border-radius: 2px;
+    padding: 0.5rem;
     font-size: 1.125rem;
 }
 
+pre {
+    margin: 0px;
+}
+
 pre code {
-  display: block;
-  padding: 5px 20px;
-  white-space: pre-wrap;
-  font-size: 14px;
-  overflow-x: auto;
-  text-wrap: nowrap;
+    margin: 0px;
+    display: block;
+    padding: 0px;
+    white-space: pre-wrap;
+    overflow-x: auto;
 }
 
 blockquote {
