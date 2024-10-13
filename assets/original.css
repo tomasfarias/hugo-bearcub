@@ -3,11 +3,11 @@ body {
     margin: auto;
     max-width: 100%;
     text-align: left;
-    background-color: #002b36;
+    background-color: #0E1419;
     word-wrap: break-word;
     overflow-wrap: break-word;
     line-height: 1.5;
-    color: #fdf6e3;
+    color: #F8F8F2;
 }
 
 h1,
@@ -16,17 +16,22 @@ h3,
 h4,
 h5,
 h6 {
-    color: #fdf6e3;
+    color: #F8F8F2;
 }
 
 strong,
 b {
-    color: #d33682;
+    color: #FF79C6;
 }
 
 a {
-    color: #2aa198;
+    color: #50FA7B;
 }
+
+a.active {
+    color: #BD93F9;
+}
+
 
 .title {
     text-decoration: none;
@@ -48,14 +53,14 @@ nav a {
 
 textarea {
     background-color: #002b36;
-    color: #ddd;
+    color: #fdf6e3;
     width: 100%;
     font-size: 16px;
 }
 
 input {
-    background-color: #252525;
-    color: #ddd;
+    background-color: #0E1419;
+    color: #F8F8F2;
     font-size: 16px;
 }
 
@@ -78,19 +83,27 @@ td {
     border-radius: 6px;
 }
 
+.footnote-definition {
+  display: block;
+}
+
+.footnote-body {
+  display: inline-block;
+}
+
 img {
     max-width: 100%;
 }
 
 code {
     color: #fdf6e3;
-    background-color: #073642;
+    background-color: #002b36;
     padding: 2px;
 }
 
 .highlight {
     border: max(1px, 0.0625rem) solid #586e75;
-    background-color: #073642;
+    background-color: #002b36;
     border-radius: 2px;
     padding: 0.5rem;
     font-size: 1.125rem;
@@ -109,8 +122,8 @@ pre code {
 }
 
 blockquote {
-    border-left: 1px solid #999;
-    color: #ccc;
+    border-left: 1px solid #21222C;
+    color: #F8F8F2;
     padding-left: 20px;
     font-style: italic;
 }
@@ -121,13 +134,13 @@ footer {
     text-align: center;
     display: flex;
     justify-content: center;
-    background-color: #073642;
+    background-color: #191A21;
     width: 100%;
     max-width: 100%;
 }
 
 .helptext {
-    color: #aaa;
+    color: #F8F8F2;
     font-size: small;
 }
 
@@ -170,7 +183,7 @@ h3.blog-filter {
 }
 
 .social i {
-    color: #fdf6e3;
+    color: #F8F8F2;
     font-size: 1.5rem;
 }
 
@@ -224,7 +237,7 @@ figcaption > p {
 .home img {
     border-radius: 0.75rem;
     max-width: 6rem;
-    border: 2px solid #fdf6e3;
+    border: 2px solid #F8F8F2;
 }
 
 .home picture {
